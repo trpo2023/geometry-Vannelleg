@@ -1,5 +1,9 @@
-geometry
-*.[oa]
-*~
-*swp
-.vscode/
+*.o
+*.d
+*.out
+*.swp
+.vscode
+
+
+
+
