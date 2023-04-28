@@ -72,7 +72,5 @@ clean:
 format:
 	clang-format -i $(SRCS) $(HDRS)
 	
-a:
-	echo $(wildcard TEST_SRC_DIR/*.cpp)
 
 .PHONY: all clean format test
